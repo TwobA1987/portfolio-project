@@ -1,11 +1,39 @@
+:root {
+  --branding-color: #edf7fa;
+  --primary-color: #8971d0;
+  --heading-font: "Libre Baskerville", serif;
+  --default-font: "Heebo", sans-serif;
+}
 body {
-  font-family: "Heebo", sans-serif;
+  font-family: var(--default-font);
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--heading-font);
 }
 h1 {
-  color: blueviolet;
+  color: var(--primary-color);
+  font-family: var(--heading-font);
+  line-height: 1.2;
+  font-size: 96px;
 }
-.fa-twitter {
+h3 {
+  opacity: 0.7;
+  font-size: 26px;
+}
+
+.hero {
   text-align: center;
-  color: blueviolet;
-  font-size: 40px;
+  background-color: var(--branding-color);
+  padding: 100px 50px;
+}
+.btn-branding {
+  padding: 15px 30px;
+  background-color: var(--primary-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
 }
