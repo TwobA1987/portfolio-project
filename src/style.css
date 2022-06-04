@@ -1,0 +1,11 @@
+body {
+  font-family: "Heebo", sans-serif;
+}
+h1 {
+  color: blueviolet;
+}
+.fa-twitter {
+  text-align: center;
+  color: blueviolet;
+  font-size: 40px;
+}
