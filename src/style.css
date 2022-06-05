@@ -14,14 +14,17 @@ h4,
 h5 {
   font-family: var(--heading-font);
 }
+p {
+  opacity: 0.7;
+}
 h1 {
   color: var(--primary-color);
   font-family: var(--heading-font);
   line-height: 1.2;
-  font-size: 96px;
+  font-size: 90px;
 }
 h2 {
-  font-size: 44px;
+  font-size: 40px;
 }
 h3 {
   opacity: 0.7;
@@ -30,6 +33,14 @@ h3 {
 h4 {
   color: var(--primary-color);
   font-size: 20px;
+}
+footer {
+  color: var(--primary-color);
+  text-align: center;
+  font-size: 30px;
+}
+i {
+  padding: 20px;
 }
 
 .hero {
@@ -52,9 +63,9 @@ h4 {
   font-size: 18px;
 }
 .project-description {
-  padding: 120px 60px;
+  padding: 80px 20px;
 }
-@media (max-width: 576px) {
+@media (max-width: 992px) {
   h1 {
     font-size: 40px;
   }
@@ -66,6 +77,10 @@ h4 {
   }
   body {
     text-align: center;
+  }
+  footer {
+    margin: 20px;
+    font-size: 20px;
   }
   .project-description {
     padding: 0;
