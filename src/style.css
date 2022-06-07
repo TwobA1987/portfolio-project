@@ -95,7 +95,8 @@ i {
   .project-description {
     padding: 0;
   }
-  .hero {
+  .hero,
+  .about-hero {
     padding: 50px;
   }
 }
