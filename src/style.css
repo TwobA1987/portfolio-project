@@ -40,14 +40,6 @@ h5 {
 h6 {
   opacity: 0.7;
 }
-footer {
-  color: var(--primary-color);
-  text-align: center;
-  font-size: 30px;
-}
-i {
-  padding: 20px;
-}
 nav {
   padding: 20px 0;
 }
@@ -65,14 +57,15 @@ nav li {
 nav li a {
   color: black;
   font-family: var(--heading-font);
+  text-decoration: none;
 }
 nav li a.active {
   color: var(--primary-color);
 }
 nav li a:hover {
   color: var(--primary-color);
-  text-decoration: none;
 }
+
 .logo {
   max-height: 50px;
 }
@@ -109,6 +102,36 @@ nav li a:hover {
 .content h2 {
   font-size: 48px;
 }
+.contact-box {
+  background-color: var(--branding-color);
+  border-radius: 20px;
+  padding: 50px 100px;
+}
+.contact-box h3 {
+  font-size: 18px;
+}
+.email-link a {
+  color: black;
+  font-family: var(--heading-font);
+  text-decoration: none;
+  font-size: 26px;
+}
+.email-link a:hover {
+  color: var(--primary-color);
+}
+.social-links a {
+  color: var(--primary-color);
+  text-decoration: none;
+  background-color: var(--branding-color);
+  border-radius: 50%;
+  margin: 10px;
+  padding: 10px 13px;
+  font-size: 25px;
+}
+.social-links a:hover {
+  color: white;
+  background-color: var(--primary-color);
+}
 @media (max-width: 992px) {
   h1 {
     font-size: 40px;
@@ -129,9 +152,9 @@ nav li a:hover {
   body {
     text-align: center;
   }
-  footer {
-    margin: 20px;
-    font-size: 20px;
+  nav li {
+    padding-left: 10px;
+    font-size: 16px;
   }
   .project-description {
     padding: 0;
@@ -139,5 +162,26 @@ nav li a:hover {
   .hero,
   .content-container {
     padding: 50px;
+  }
+
+  .contact-box {
+    border-radius: 2px;
+    padding: 20px;
+  }
+  .contact-box h2 {
+    font-size: 15px;
+  }
+  .contact-box h3 {
+    font-size: 10px;
+  }
+  .contact-box .btn-branding {
+    padding: 10px 15px;
+    font-size: 13px;
+  }
+  .email-link a {
+    font-size: 20px;
+  }
+  .social-links a {
+    font-size: 15px;
   }
 }
